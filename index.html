@@ -1,122 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootstrap Site</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <style>
-    .header{
-      background-image: url("b1b5d0527df37440ce635bc89ceb27a9.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      padding-bottom: 150px;
-    }
-  </style>
-</head>
-<body>
-  <header class="header">
-   <div class="container h-100">
-    <nav class="navbar  border-bottom border-white">
-      <div class="navbar nav nav-item gap-2">
-        <a href="#" class="navbar-brand text-white fs-3 fw-bolder"> incline </a>
-        <ul class="nav gap-4 d-none d-xl-flex">
-          <li><h5 style="color: white; font-weight: lighter;">|</h5></li>
-          <li class="nav-item "><img src="./instagramssss.png" width="15" alt=""></li>
-          <li class="nav-item"><img src="./instagramssss.png" width="15" alt=""></li>
-          <li class="nav-item"><img src="./instagramssss.png" width="15" alt=""></li>
-        </ul>
-      </div>
-      <div class="nav-item d-none d-xl-block">
-        <ul class="nav gap-3">
-          <li class="nav-item"><a href="" class="nav-link text-white fw-bolder" style="font-size: 13px">WELCOME</a></li>
-          <li class="nav-item"><a href="" class="nav-link text-white fw-bolder" style="font-size: 13px">WELCOME</a></li>
-          <li class="nav-item"><a href="" class="nav-link text-white fw-bolder" style="font-size: 13px">PAGES</a></li>
-          <li class="nav-item"><a href="" class="nav-link text-white fw-bolder" style="font-size: 13px">COMPONENTS</a></li>
-          <li class="nav-item"><a href="" class="nav-link text-white fw-bolder" style="font-size: 13px">DOCUMENTATION</a></li>
-          <li class="nav-item fw-lighter text-white">|</li>
-          <li class="nav-item"><a href="" class="nav-link text-white fw-bolder" style="font-size: 13px">PURCHASE NOW</a></li>
-        </ul>
-      </div>
-      
-      <button class="btn navbar-toggler-icon bg-white d-xl-none"></button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Site</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <style>
+      .header {
+        background-image: url("b1b5d0527df37440ce635bc89ceb27a9.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 150px;
+      }
 
-    </nav>
+      .card img {
+        transition: all 0.3s;
+      }
+      .card:hover img {
+        box-shadow: 0px 10px 25px 0px black;
+        cursor: pointer;
+        transform: translateY(-10px);
+      }
 
-    <main class="d-flex flex-column align-items-center justify-content-center" style="margin-top: 70px;">
-      <h4 class="fs-6 text-white opacity-50 text-center w-75 p-4">BY SIMPLEQODE</h4>
-      <h2 class="text-white fs-1 text-center  w-75">Landing pages for any occasion</h2>
-      <p class="text-white fs-5 opacity-75 text-center  w-75 p-4">
-        Incline is set of landing and support pages aimed at helping companies promote new products and business launches.
-      </p>
-      <button class="btn border border-primary pt-3 pb-3 pe-4 ps-4 text-white fw-bolder">PURCHASE NOW</button>
-    </main>
-   </div>
-  </header>
- <!-- landing page -->
-  <section class="" style="margin-top: 100px;">
-    <div class="container">
-      <h2 class="text-center mb-4">Landing page variants</h2>
-      <p class="fs-5 text-center opacity-75 w-75 p-3 m-auto" >
-        Incline comes with several professionally designed landing pages that can be easily adapted for any project.
-      </p>
-      
-      <div class="blog row">
-        <div class="card col-xl-4 col-lg-6 col-md-6 col-12 border-0 mb-5 ">
-          <div class="card-body">
-            <img src="./b1b5d0527df37440ce635bc89ceb27a9.jpg" class="mw-100" alt="">
-            <h4 class="card-title mt-5 mb-4">App landing</h4>
-            <p class="card-text fw-medium opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, laudantium! </p>
+      @media only screen and (max-width:900) {
+        
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container h-100">
+        <nav class="navbar border-bottom border-white">
+          <div class="navbar nav nav-item gap-2">
+            <a href="#" class="navbar-brand text-white fs-3 fw-bolder">
+              incline
+            </a>
+            <ul class="nav gap-4 d-none d-xl-flex">
+              <li><h5 style="color: white; font-weight: lighter">|</h5></li>
+              <li class="nav-item">
+                <img src="./instagramssss.png" width="15" alt="" />
+              </li>
+              <li class="nav-item">
+                <img src="./instagramssss.png" width="15" alt="" />
+              </li>
+              <li class="nav-item">
+                <img src="./instagramssss.png" width="15" alt="" />
+              </li>
+            </ul>
+          </div>
+          <div class="nav-item d-none d-xl-block">
+            <ul class="nav gap-3">
+              <li class="nav-item">
+                <a
+                  href=""
+                  class="nav-link text-white fw-bolder"
+                  style="font-size: 13px"
+                  >WELCOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href=""
+                  class="nav-link text-white fw-bolder"
+                  style="font-size: 13px"
+                  >WELCOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href=""
+                  class="nav-link text-white fw-bolder"
+                  style="font-size: 13px"
+                  >PAGES</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href=""
+                  class="nav-link text-white fw-bolder"
+                  style="font-size: 13px"
+                  >COMPONENTS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href=""
+                  class="nav-link text-white fw-bolder"
+                  style="font-size: 13px"
+                  >DOCUMENTATION</a
+                >
+              </li>
+              <li class="nav-item fw-lighter text-white">|</li>
+              <li class="nav-item">
+                <a
+                  href=""
+                  class="nav-link text-white fw-bolder"
+                  style="font-size: 13px"
+                  >PURCHASE NOW</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <button class="btn navbar-toggler-icon bg-white d-xl-none"></button>
+        </nav>
+
+        <main
+          class="d-flex flex-column align-items-center justify-content-center"
+          style="margin-top: 70px"
+        >
+          <h4 class="fs-6 text-white opacity-50 text-center w-75 p-4">
+            BY SIMPLEQODE
+          </h4>
+          <h2 class="text-white fs-1 text-center w-75">
+            Landing pages for any occasion
+          </h2>
+          <p class="text-white fs-5 opacity-75 text-center w-75 p-4">
+            Incline is set of landing and support pages aimed at helping
+            companies promote new products and business launches.
+          </p>
+          <button
+            class="btn border border-primary pt-3 pb-3 pe-4 ps-4 text-white fw-bolder"
+          >
+            PURCHASE NOW
+          </button>
+        </main>
+      </div>
+    </header>
+    <!-- landing page -->
+    <section class="" style="margin-top: 100px">
+      <div class="container">
+        <h2 class="text-center mb-4">Landing page variants</h2>
+        <p class="fs-5 text-center opacity-75 w-75 p-lg-3 m-auto">
+          Incline comes with several professionally designed landing pages that
+          can be easily adapted for any project.
+        </p>
+
+        <div class="blog row">
+          <div class="card col-xl-4 col-lg-6 col-md-6 col-12 border-0 mb-md-5">
+            <div class="card-body">
+              <img src="./blog1.png" class="mw-100" alt="" />
+              <h4 class="card-title mt-5 mb-4">App landing</h4>
+              <p class="card-text fw-medium opacity-75">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                laudantium!
+              </p>
+            </div>
+          </div>
+          <div class="card col-xl-4 col-lg-6 col-md-6 col-12 border-0 mb-md-5">
+            <div class="card-body">
+              <img src="./b2.png" class="mw-100" alt="" />
+              <h4 class="card-title mt-5 mb-4">App landing</h4>
+              <p class="card-text fw-medium opacity-75">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                laudantium!
+              </p>
+            </div>
+          </div>
+          <div class="card col-xl-4 col-lg-6 col-md-6 col-12 border-0 mb-md-5">
+            <div class="card-body">
+              <img src="./b3.png" class="mw-100" alt="" />
+              <h4 class="card-title mt-5 mb-4">App landing</h4>
+              <p class="card-text fw-medium opacity-75">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                laudantium!
+              </p>
+            </div>
+          </div>
+          <div class="card col-xl-4 col-lg-6 col-md-6 col-12 border-0 mb-md-5">
+            <div class="card-body">
+              <img src="./b4.png" class="mw-100" alt="" />
+              <h4 class="card-title mt-5 mb-4">App landing</h4>
+              <p class="card-text fw-medium opacity-75">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                laudantium!
+              </p>
+            </div>
+          </div>
+          <div class="card col-xl-4 col-lg-6 col-md-6 col-12 border-0 mb-md-5">
+            <div class="card-body">
+              <img src="./b5.png" class="mw-100" alt="" />
+              <h4 class="card-title mt-5 mb-4">App landing</h4>
+              <p class="card-text fw-medium opacity-75">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                laudantium!
+              </p>
+            </div>
+          </div>
+          <div class="card col-xl-4 col-lg-6 col-md-6 col-12 border-0 mb-md-5">
+            <div class="card-body">
+              <img src="./b6.png" class="mw-100" alt="" />
+              <h4 class="card-title mt-5 mb-4">App landing</h4>
+              <p class="card-text fw-medium opacity-75">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                laudantium!
+              </p>
+            </div>
+          </div>
+          <div class="card col-xl-4 col-lg-6 col-md-6 col-12 border-0 mb-md-5">
+            <div class="card-body">
+              <img src="./b7.png" class="mw-100" alt="" />
+              <h4 class="card-title mt-5 mb-4">App landing</h4>
+              <p class="card-text fw-medium opacity-75">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                laudantium!
+              </p>
+            </div>
+          </div>
+          <div class="card col-xl-4 col-lg-6 col-md-6 col-12 border-0 mb-md-5">
+            <div class="card-body">
+              <img src="./b7.png" class="mw-100" alt="" />
+              <h4 class="card-title mt-5 mb-4 opacity-75">App landing</h4>
+              <p class="card-text fw-medium opacity-75 opacity-25">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                laudantium!
+              </p>
+            </div>
           </div>
         </div>
-        <div class="card col-xl-4 col-lg-6 col-md-6 col-12 border-0 mb-5 ">
-          <div class="card-body">
-            <img src="./b1b5d0527df37440ce635bc89ceb27a9.jpg" class="mw-100" alt="">
-            <h4 class="card-title mt-5 mb-4">App landing</h4>
-            <p class="card-text fw-medium opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, laudantium! </p>
+      </div>
+    </section>
+
+    <hr
+      class=""
+      style="
+        width: 120px;
+        transform: rotate(90deg);
+        margin: auto;
+        border: 2px solid rgb(240, 187, 15);
+        position: relative;
+        top: 0px;
+        margin-top: 100px;
+      "
+    />
+
+    <div class="w-100 bg-light" style="padding: 120px 0px 100px 0px">
+      <div class="container">
+        <h3 class="text-center">Header variants</h3>
+        <p class="text-center w-75 m-auto opacity-50">
+          Polish your landing page with one of the header options below to
+          impress your visitors at first glance.
+        </p>
+        <div class="row mt-3">
+          <div class="card col-lg-4 col-md-6 col-12 border-0 bg-light">
+            <div class="card-body">
+              <img src="./c1.png" class="mw-100" alt="" />
+              <h4 class="card-title mt-5 mb-4">App landing</h4>
+              <p class="card-text fw-medium opacity-75 opacity-25">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                laudantium!
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="card col-xl-4 col-lg-6 col-md-6 col-12 border-0 mb-5 ">
-          <div class="card-body">
-            <img src="./b1b5d0527df37440ce635bc89ceb27a9.jpg" class="mw-100" alt="">
-            <h4 class="card-title mt-5 mb-4">App landing</h4>
-            <p class="card-text fw-medium opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, laudantium! </p>
+          <div class="card col-lg-4 col-md-6 col-12 border-0 bg-light">
+            <div class="card-body">
+              <img src="./c2.png" class="mw-100" alt="" />
+              <h4 class="card-title mt-5 mb-4">App landing</h4>
+              <p class="card-text fw-medium opacity-75 opacity-25">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                laudantium!
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="card col-xl-4 col-lg-6 col-md-6 col-12 border-0 mb-5 ">
-          <div class="card-body">
-            <img src="./b1b5d0527df37440ce635bc89ceb27a9.jpg" class="mw-100" alt="">
-            <h4 class="card-title mt-5 mb-4">App landing</h4>
-            <p class="card-text fw-medium opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, laudantium! </p>
-          </div>
-        </div> <div class="card col-xl-4 col-lg-6 col-md-6 col-12 border-0 mb-5 ">
-          <div class="card-body">
-            <img src="./b1b5d0527df37440ce635bc89ceb27a9.jpg" class="mw-100" alt="">
-            <h4 class="card-title mt-5 mb-4">App landing</h4>
-            <p class="card-text fw-medium opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, laudantium! </p>
-          </div>
-        </div> <div class="card col-xl-4 col-lg-6 col-md-6 col-12 border-0 mb-5 ">
-          <div class="card-body">
-            <img src="./b1b5d0527df37440ce635bc89ceb27a9.jpg" class="mw-100" alt="">
-            <h4 class="card-title mt-5 mb-4">App landing</h4>
-            <p class="card-text fw-medium opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, laudantium! </p>
-          </div>
-        </div> <div class="card col-xl-4 col-lg-6 col-md-6 col-12 border-0 mb-5 ">
-          <div class="card-body">
-            <img src="./b1b5d0527df37440ce635bc89ceb27a9.jpg" class="mw-100" alt="">
-            <h4 class="card-title mt-5 mb-4">App landing</h4>
-            <p class="card-text fw-medium opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, laudantium! </p>
-          </div>
-        </div> <div class="card col-xl-4 col-lg-6 col-md-6 col-12 border-0 mb-5 ">
-          <div class="card-body">
-            <img src="./b1b5d0527df37440ce635bc89ceb27a9.jpg" class="mw-100" alt="">
-            <h4 class="card-title mt-5 mb-4">App landing</h4>
-            <p class="card-text fw-medium opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, laudantium! </p>
+          <div class="card col-lg-4 col-md-6 col-12 border-0 bg-light">
+            <div class="card-body">
+              <img src="./c3.png" class="mw-100" alt="" />
+              <h4 class="card-title mt-5 mb-4">App landing</h4>
+              <p class="card-text fw-medium opacity-75">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                laudantium!
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+
+    <section class="blockquote container  pt-5 pb-5">
+    <div class="d-flex w-100  m-auto gap-sm-4 gap-md-5 gap-3 mt-5 mb-5">
+      <div>
+        <img src="./left-quote.png" width="25" alt="">
+      </div>
+      <div>
+        <blockquote class="fs-5">This theme is a Swiss Army knife of Bootstrap themes. Built with components in mind, it can be easily adjusted to create layouts of any complexity within a few minutes.</blockquote>
+        <p class="fs-5">Yuri Gamin, Moscow</p>
+      </div>
+    </div>
+    </section>
+    <div class="" style="height: 500px"></div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
